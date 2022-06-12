@@ -1,1 +1,96 @@
+html {
+    font-size: 10px;
+}
 
+body {
+    background: pink;
+}
+
+  p {
+    position: absolute;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    top: 92px;
+    left: 25px;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+h1 {
+    position: absolute;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    top: 165px;
+    left: 50px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#triangle_left {
+    width: 91.4%;
+    height: auto;
+    top: 750px;
+    border-top: 70px solid transparent;
+    border-right: 140px solid #000000;
+    border-bottom: 70px solid transparent;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+.menu {
+    position: absolute;
+    top: 650px;
+    width: 100px;
+    background-color: black;
+    padding: 2px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.menu-item {
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 1px;
+    transition: 1s;
+}
+
+.menu-item:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    top: 725px;
+    left: 1445px;
+    width: auto;
+    height: auto;
+}
+
+nav {
+    display: block;
+}
+
+nav {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+    padding: 150px 0;
+}
